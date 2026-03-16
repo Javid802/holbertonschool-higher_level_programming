@@ -1,4 +1,4 @@
-#!/bin/python3
+#!usr/bin/python3
 a = "a"
 while a!="{":
     print(a,end='')
