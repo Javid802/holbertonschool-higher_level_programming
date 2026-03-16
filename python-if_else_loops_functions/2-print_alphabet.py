@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 a = "a"
-while a!="{":
-    print(a,end='').__format__
-    a = chr(ord(a)+1)
+while a <= "z":
+    print(a, end="")
+    a = chr(ord(a) + 1)
