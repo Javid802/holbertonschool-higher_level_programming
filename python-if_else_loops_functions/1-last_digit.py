@@ -7,7 +7,7 @@ if number > 0 or str(number)[-1] == "0":
 else:
     sign = '-'
 last = sign + str(number)[-1]
-print(f"Last digit of {number} is {last} and", end = "")
+print(f"Last digit of {number} is {last} and", end="")
 if last > "5":
     print(" is greater than 5")
 elif last == "0":
