@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def islower(a):
-    if islower(a):
+def islower(c):
+    if islower(c):
         return True
     else:
         return False
