@@ -7,4 +7,4 @@ def islower(c):
     elif 'A' <= c <= 'Z':
         return None
     else:
-        raise ValueError("Invalid character")
+        return None
