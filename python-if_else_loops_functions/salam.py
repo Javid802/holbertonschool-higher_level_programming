@@ -1,1 +1,2 @@
-print(-24%10)
+a = 'salam'
+print(a[::-1])
