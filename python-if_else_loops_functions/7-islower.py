@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def islower(c):
-    if c == '"':
-        raise ValueError
     if len(c) != 1:
-        return False
-    if c >= "a" and c <= "z":
+        raise ValueError("Input must be a single character")
+    if 'a' <= c <= 'z':
         return True
-    else:
+    elif 'A' <= c <= 'Z':
         return False
+    else:
+        raise ValueError("Invalid character")
