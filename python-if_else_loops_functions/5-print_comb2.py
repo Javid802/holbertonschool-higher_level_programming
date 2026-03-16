@@ -1,6 +1,6 @@
 #!usr/bin/python3
-for i in range(100):
+for i in range(99):
     if len(str(i))==1:
-        print("0{}".format(i), sep=",")
-    else:
-        print("{}".format(i), sep=",")
+        i = "0" + str(i)
+    print("{}".format(i), end=", ")
+print("99")
