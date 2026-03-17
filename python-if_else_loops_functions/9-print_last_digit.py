@@ -5,4 +5,4 @@ def print_last_digit(number):
     else:
         print(int(str(number)[-1]))
         
-print_last_digit(-123)
+print_last_digit(98)
