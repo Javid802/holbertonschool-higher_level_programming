@@ -1,1 +1,8 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
+def print_last_digit(number):
+    if number<0:
+        print(-1 * int(str(number)[-1]))
+    else:
+        print(int(str(number)[-1]))
+        
+print_last_digit(-123)

@@ -1,2 +1,2 @@
-a = 'salam'
-print(a[::-1])
+a = '-121'
+print(a[-1])
