@@ -3,8 +3,8 @@ from calculator_1 import *
 if __name__ == "__main__" :
     a = 10
     b = 5
-    print("{} + {} = {}").__format__(a, b, add(a,b))
-    print("{} - {} = {}").__format__(a, b, sub(a,b))
-    print("{} * {} = {}").__format__(a, b, mul(a,b))
-    print("{} / {} = {}").__format__(a, b, div(a,b))
+    print("{} + {} = {}").format(a, b, add(a,b))
+    print("{} - {} = {}").format(a, b, sub(a,b))
+    print("{} * {} = {}").format(a, b, mul(a,b))
+    print("{} / {} = {}").format(a, b, div(a,b))
     
