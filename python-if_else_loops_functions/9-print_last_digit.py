@@ -4,4 +4,3 @@ def print_last_digit(number):
         print(-1 * int(str(number)[-1]), end="")
     else:
         print(int(str(number)[-1]), end="")
-print_last_digit(98)
