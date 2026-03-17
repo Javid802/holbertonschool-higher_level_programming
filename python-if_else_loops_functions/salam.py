@@ -1,2 +1,4 @@
-a = '-121'
-print(a[-1])
+def my_function():
+    print("In my function")
+
+my_function
