@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys
-sds
+
 len_argv = len(sys.argv)
 if __name__ == "__main__":
     if len_argv < 2:
@@ -12,4 +12,3 @@ if __name__ == "__main__":
             print("{} arguments:".format(len_argv - 1))
         for i in range(1, len_argv):
             print("{}: {}".format(i, sys.argv[i]))
-adsasda
