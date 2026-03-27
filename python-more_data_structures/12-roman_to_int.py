@@ -6,8 +6,8 @@ def roman_to_int(roman_string):
     for i in reversed(roman_string):
         deyer = roman[i]
         if deyer >= evvelki:
-            total += deyer
+            cem += deyer
         else:
-            total -= deyer
+            cem -= deyer
         evvelki = deyer
     return cem
