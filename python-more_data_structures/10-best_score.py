@@ -7,6 +7,6 @@ def best_score(a_dictionary):
             a = a_dictionary[i]
             ad = i
     if a == 0:
-        return None
+        return 'None'
     else:
         return ad
